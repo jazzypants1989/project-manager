@@ -12,6 +12,10 @@ const ProjectSchema = new mongoose.Schema({
         type: String,
         enum: ['Waiting on your lazy butt', 'You are literally doing it right now', 'Donezo, my friend'],
     },
+    clientId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Client',
+    }
 });
 
 module.exports = mongoose.model('Project', ProjectSchema);
