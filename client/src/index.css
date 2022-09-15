@@ -32,17 +32,17 @@ code {
 
 .btn-primary,
 .bg-primary {
-  background-color: cyan !important;
+  background-color: seagreen !important;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: cyan;
+  background-color: seagreen;
   opacity: 0.9;
 }
 
 .btn-secondary {
-  background-color: lightskyblue;
+  background-color: seagreen;
 }
 
 .btn-secondary:hover {
