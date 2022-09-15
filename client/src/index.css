@@ -33,21 +33,24 @@ code {
 .btn-primary,
 .bg-primary {
   background-color: seagreen !important;
-  border: none;
+  border: 1px solid seagreen !important;
+  transition: 1s ease;
 }
 
 .btn-primary:hover {
-  background-color: seagreen;
-  opacity: 0.9;
+  background-color: rebeccapurple !important;
+  opacity: 0.6;
 }
 
 .btn-secondary {
-  background-color: seagreen;
+  background-color: seagreen !important;
+  border: none;
+  transition: 1s ease;
 }
 
 .btn-secondary:hover {
-  background-color: cyan;
-  opacity: 0.9;
+  background-color: rosybrown !important;
+  opacity: 0.6;
 }
 
 .icon {

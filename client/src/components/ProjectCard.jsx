@@ -12,8 +12,7 @@ export default function ProjectCard( { project } ) {
                         <FaEye /> View
                     </a>
                 </div>
-                <p className="small">Status: <strong>{project.status}</strong></p>
-            </div>
+                <p className="small">Status: <strong>{ project.status }</strong></p>            </div>
         </div>
     </div> 
 
